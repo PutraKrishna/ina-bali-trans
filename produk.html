@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Paket & Armada — Ina Bali Trans & Travel</title><link rel="stylesheet" href="style.css"/><link rel="icon" href="asset/Logo_ina.png"/></head>
+<body>
+<div class="topbar"><div class="container"><span>✦ Harga transparan — sudah termasuk BBM, parkir & driver</span><span>📞 0813-5318-2167</span></div></div>
+<header class="main-header"><div class="container header-content">
+<div class="logo-area"><img src="asset/Logo_ina.png" class="logo-img" alt="logo" onerror="this.src='asset/Logo.png'"/><div><h1 class="logo">Ina Bali <span>Trans & Travel</span></h1><p class="tagline">Beyond Destinations, Into Experiences.</p></div></div>
+<button class="burger" id="burger">☰</button>
+<nav class="main-nav" id="nav"><ul><li><a href="home.html" class="nav-link">Beranda</a></li><li><a href="produk.html" class="nav-link active">Paket & Armada</a></li><li><a href="kontak.html" class="nav-link">Kontak</a></li><li><a href="tentang_kami.html" class="nav-link">Tentang Kami</a></li><li><a href="#booking" class="btn btn-brown" style="padding:10px 20px">Booking Sekarang</a></li></ul></nav></div></header>
+
+<div class="page-hero"><div class="container"><span class="eyebrow">Katalog 2026</span><h1>Paket trip & sewa armada.</h1><p style="color:#EAD3B5">Filter kategori, cari destinasi, masukkan ke rencana perjalanan lalu checkout via WhatsApp.</p></div></div>
+
+<main class="container">
+<div class="search-bar"><input type="text" class="search-input" id="input-cari" placeholder="Cari: penida, airport, hiace, honeymoon..."/><button class="btn-search" id="btn-cari" type="button">Cari</button></div>
+<div class="produk-layout">
+<aside class="filter-sidebar"><h3>Kategori</h3><ul class="filter-list">
+<li><label><input class="cek-kategori" type="checkbox" value="daytrip"/> Day Trip</label></li>
+<li><label><input class="cek-kategori" type="checkbox" value="open"/> Open Trip</label></li>
+<li><label><input class="cek-kategori" type="checkbox" value="transfer"/> Airport Transfer</label></li>
+<li><label><input class="cek-kategori" type="checkbox" value="sewa"/> Sewa Armada</label></li>
+<li><label><input class="cek-kategori" type="checkbox" value="honeymoon"/> Honeymoon</label></li></ul>
+<div style="margin-top:16px;background:var(--brown-50);border-radius:12px;padding:14px;font-size:13px;color:var(--muted)">💡 Semua harga <b style="color:var(--brown-900)">sudah termasuk</b> BBM, parkir, tol & driver guide.</div></aside>
+
+<div class="product-grid" id="grid">
+<div class="product-card" data-id="uluwatu" data-kategori="daytrip"><div class="product-image"><img src="asset/produk_1.jpeg" alt="" onerror="this.src='asset/banner.png'"/><span class="badge gold">Best Seller</span></div><div class="product-info"><h3 class="product-title">Uluwatu Sunset Trip</h3><p class="product-desc">Padang-padang, Uluwatu Temple, Kecak Fire Dance, Jimbaran dinner. 10 jam, maks 6 orang/mobil.</p><div class="product-footer"><span class="product-price" data-harga="650000">Rp 650.000 / mobil</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="ubud" data-kategori="daytrip"><div class="product-image"><img src="asset/produk4.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Ubud Culture Trip</h3><p class="product-desc">Tegalalang rice terrace, Tirta Empul, Tegenungan waterfall, Monkey Forest.</p><div class="product-footer"><span class="product-price" data-harga="600000">Rp 600.000 / mobil</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="penida" data-kategori="open"><div class="product-image"><img src="asset/produk5.jpeg" alt="" onerror="this.src='asset/banner.png'"/><span class="badge gold">Promo</span></div><div class="product-info"><h3 class="product-title">Nusa Penida West — Open Trip</h3><p class="product-desc">Fast boat PP Sanur, Kelingking, Angel Billabong, Broken Beach, lunch, retribusi.</p><div class="product-footer"><span class="product-price" data-harga="850000">Rp 850.000 / orang</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="lovina" data-kategori="open"><div class="product-image"><img src="asset/produk2.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Lovina Dolphin Sunrise</h3><p class="product-desc">Boat sunrise, snorkeling, Banjar hot spring, Bedugul. Berangkat 03.00.</p><div class="product-footer"><span class="product-price" data-harga="750000">Rp 750.000 / orang</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="airport" data-kategori="transfer"><div class="product-image"><img src="asset/produk 3.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Airport Transfer 24 Jam</h3><p class="product-desc">Ngurah Rai ke Kuta/Seminyak/Canggu/Ubud. Flight tracking + free wait 60 mnt.</p><div class="product-footer"><span class="product-price" data-harga="250000">Rp 250.000 / mobil</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="hiace" data-kategori="sewa"><div class="product-image"><img src="asset/klepon.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Sewa Hiace Premio</h3><p class="product-desc">Maks 14 seat, full AC, full day 12 jam dalam kota. Luar kota by request.</p><div class="product-footer"><span class="product-price" data-harga="1400000">Rp 1.400.000 / hari</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="innova" data-kategori="sewa"><div class="product-image"><img src="asset/godoh.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Sewa Innova Reborn + Driver</h3><p class="product-desc">Maks 6 orang, bagasi luas, cocok keluarga & golf trip.</p><div class="product-footer"><span class="product-price" data-harga="750000">Rp 750.000 / hari</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="honeymoon" data-kategori="honeymoon"><div class="product-image"><img src="asset/escendol.jpeg" alt="" onerror="this.src='asset/banner.png'"/><span class="badge dark">Best for couple</span></div><div class="product-info"><h3 class="product-title">Honeymoon 3D2N</h3><p class="product-desc">Private pool villa, flower decoration, sunset cruise, fotografer 1 sesi.</p><div class="product-footer"><span class="product-price" data-harga="4900000">Rp 4.900.000 / couple</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+<div class="product-card" data-id="melasti" data-kategori="daytrip"><div class="product-image"><img src="asset/esdaluman.jpeg" alt="" onerror="this.src='asset/banner.png'"/></div><div class="product-info"><h3 class="product-title">Melasti & Jimbaran Chill</h3><p class="product-desc">Pantai Melasti, cliff swing foto, seafood Jimbaran. Santai, cocok Lansia.</p><div class="product-footer"><span class="product-price" data-harga="550000">Rp 550.000 / mobil</span><button class="btn-detail">Detail</button><button class="btn-keranjang" type="button">+ Rencana</button></div></div></div>
+</div>
+<p id="pesan-kosong" hidden>Paket tidak ditemukan. Coba kata kunci lain.</p>
+</div>
+
+<section id="detail-panel" class="filter-sidebar" hidden style="width:100%;max-width:860px;margin:0 auto 24px"><button type="button" class="btn-detail" onclick="tutupDetail()">Tutup</button><h3 id="detail-judul"></h3><p id="detail-isi"></p></section>
+
+<section class="cart-panel" id="booking" aria-live="polite"><div class="cart-heading"><div><h2>🧳 Rencana perjalananmu</h2><p><span id="jumlah-keranjang">0</span> item dipilih</p></div><span style="font-size:28px">🤎</span></div>
+<p id="keranjang-kosong" class="cart-empty">Belum ada paket. Klik "+ Rencana" untuk menyusun itinerary.</p>
+<ul id="daftar-keranjang" class="cart-list"></ul>
+<div class="cart-total"><strong>Total estimasi</strong><strong id="total-harga">Rp 0</strong></div>
+<div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap"><button class="btn btn-brown" id="btn-checkout" type="button" style="flex:1">Checkout via WhatsApp →</button><button class="btn btn-ghost" type="button" onclick="localStorage.removeItem('ina_cart');location.reload()">Reset</button></div>
+</section></main>
+
+<footer class="main-footer"><div class="container footer-content"><div><h3>Ina Bali Trans & Travel</h3><p>Beyond Destinations, Into Experiences.</p></div><div class="footer-links"><h4>Jelajah</h4><ul><li><a href="home.html">Beranda</a></li><li><a href="produk.html">Paket & Armada</a></li><li><a href="kontak.html">Kontak</a></li><li><a href="tentang_kami.html">Tentang Kami</a></li></ul></div><div><h4>Hubungi Kami</h4><p>✉ halo@inabalitrans.id</p><p>📞 0813-5318-2167</p></div></div><p class="copyright">&copy; 2026 Ina Bali Trans & Travel.</p></footer>
+<script src="script.js"></script></body></html>
